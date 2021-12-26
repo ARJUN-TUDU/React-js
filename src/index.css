@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.mytextHeader{
+   font-family: 'Anton', sans-serif;
+}
+
+.remdecoration{
+  text-decoration: none;
+  color: primary;
+}
+
+/* ------------------------------------------------------ TourCards-------------------------------------------*/
+
+.bgimage{
+  
+  height : 220vh ; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.toursImage{
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.Trj9MM9VjLxxzp_vuejJBAHaEo&pid=Api&P=0&w=245&h=154');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 0.5rem;
+  opacity: 0.9;
+
+}
+
+.toursImage h4{
+   
+  position: absolute;
+  margin-top : 140px;
+  margin-left: 30px;
+  font-weight: bold;
+  color : white; 
+  opacity: 2;
+}
+
+
+
+/*-------------------------------------------------blogcards--------------------------------------*/
+
+
+
+.blogsection {
+  
+  display: flex;
+  align-items:center;
+  background-position: center center;
+  min-height :100vh;
+  flex-direction: column;
+
+}
+
+.blogcard{
+    min-height: 170px;
+    width: 190px;
+    background-color: red;
+    border-radius: 0.4rem;
+    margin-top :  9px ;
+}
+
+
+.blogcard h4{
+  padding-top: 105px;
+  padding-left: 30px;
+}
